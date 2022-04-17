@@ -51,6 +51,7 @@ export default function About() {
               have actually been related to engineering, on the computer side of
               things. For example, I enjoy tinkering with a Raspberry Pi that I
               have. I use this to practice my programming and practical
+              experience.
             </p>
             <p className="mb-2">
               I really love the game of basketball 🏀. Be it watching the NBA,

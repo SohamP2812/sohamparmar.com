@@ -5,18 +5,8 @@ export default function Website() {
     <div className="flex min-h-screen flex-col items-center py-2">
       <main className="mx-auto mt-16 flex w-full max-w-2xl flex-col items-start justify-center px-8">
         <h1 className="mb-4 text-5xl font-bold tracking-tight text-black">
-          About Soham 📝
+          About This Website 💻
         </h1>
-        <div className="my-8">
-          <Image
-            alt="Soham Parmar"
-            src="/SohamParmarFull.jpg"
-            width={3024 / 10}
-            height={4032 / 10}
-            className="rounded-xl"
-            priority
-          />
-        </div>
         <div className="mt-8 mb-8 leading-6">
           <div className="mb-6">
             <h2 className="mb-4 text-2xl font-bold">Intro</h2>
