@@ -46,12 +46,12 @@ export default function About() {
             <p className="mb-2">
               I tend to be very curious by nature, which means I can’t easily do
               nothing productive in my time. What I mean by this is I try to
-              have something to do on my mind whenever. Usually this thing is
-              something of a hobby, or some goal I have set. More recently these
-              have actually been related to engineering, on the computer side of
-              things. For example, I enjoy tinkering with a Raspberry Pi that I
-              have. I use this to practice my programming and practical
-              experience.
+              have something to do and put my mind towards whenever I have free
+              time. Usually this thing is something of a hobby, or some goal I
+              have set. More recently these have actually been related to
+              engineering, on the computer side of things. For example, I enjoy
+              tinkering with a Raspberry Pi that I have. I use this to practice
+              my programming and practical experience.
             </p>
             <p className="mb-2">
               I really love the game of basketball 🏀. Be it watching the NBA,
