@@ -1,11 +1,18 @@
 import '../styles/globals.css'
 import Container from '../components/Container'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Container>
-      <Component {...pageProps} />
-    </Container>
+    <>
+      <Head>
+        <title>Soham Parmar 💻</title>
+        <link rel="icon" href="/SohamParmarLogo.png" />
+      </Head>
+      <Container>
+        <Component {...pageProps} />
+      </Container>
+    </>
   )
 }
 

@@ -1,14 +1,9 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import RedirectCard from '../components/RedirectCard'
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/SohamParmarLogo.png" />
-      </Head>
       <main className="mx-auto mt-20 flex w-full flex-col items-center justify-center px-8 text-center">
         <div className="flex max-w-2xl flex-col-reverse items-center pb-10 text-left sm:flex-row">
           <div className="flex flex-col pr-8">
