@@ -37,6 +37,7 @@ export default function Header() {
                 src="/SohamParmarLogo.png"
                 alt="Soham Parmar"
                 className="brightness-0"
+                priority
               />
             </a>
           </div>
@@ -85,6 +86,7 @@ export default function Header() {
                     src="/SohamParmarLogo.png"
                     alt="Soham Parmar"
                     className="brightness-0"
+                    priority
                   />
                 </div>
                 <div className="-mr-2">
@@ -96,7 +98,7 @@ export default function Header() {
               </div>
             </div>
             <div className="space-y-6 py-6 px-5">
-              <div className="grid grid-cols-2 gap-y-4 gap-x-8">
+              <div className="grid grid-cols-1 gap-y-4 gap-x-8">
                 <a
                   href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
