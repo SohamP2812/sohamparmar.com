@@ -40,18 +40,22 @@ export default function Home() {
           <RedirectCard
             title="This Website"
             description="Find in-depth information about this website and the technologies used to build it."
+            href="/website"
           />
           <RedirectCard
             title="About Me"
             description="Find out some more about me - such as my background, passions, hobbies, and more."
+            href="/about"
           />
           <RedirectCard
             title="Projects"
             description="Take a look at some of the projects I have made as well as some details about how they were made."
+            href="/projects"
           />
           <RedirectCard
             title="Links"
             description="Some more links you can check out to find me on other platforms."
+            href="/links"
           />
         </div>
       </main>
