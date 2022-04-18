@@ -18,7 +18,7 @@ const technologies = [
   {
     name: 'Next.js',
     use: 'Framework',
-    description: `I've come to have Next.js at the front of my find whenever 
+    description: `I've come to have Next.js at the front of my mind whenever 
     I intend on create any sort of non-SPA based website. I've come to make 
     React the optimal choice for web development for myself - but it is not 
     without flaws on its own. A lot of features come out of the box with 
