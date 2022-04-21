@@ -66,7 +66,7 @@ export default function Website() {
   return (
     <div className="flex min-h-screen flex-col items-center py-2">
       <main className="mx-auto mt-16 flex w-full max-w-2xl flex-col items-start justify-center px-8">
-        <h1 className="mb-4 text-5xl font-bold tracking-tight text-black">
+        <h1 className="mb-4 text-5xl font-bold tracking-tight">
           About This Website 💻
         </h1>
         <div className="mb-8 leading-6">

@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import Container from '../components/Container'
 import Head from 'next/head'
+import { ThemeProvider } from 'next-themes'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,9 +10,11 @@ function MyApp({ Component, pageProps }) {
         <title>Soham Parmar 💻</title>
         <link rel="icon" href="/SohamParmarLogo.png" />
       </Head>
-      <Container>
-        <Component {...pageProps} />
-      </Container>
+      <ThemeProvider defaultTheme="light" attribute="class">
+        <Container>
+          <Component {...pageProps} />
+        </Container>
+      </ThemeProvider>
     </>
   )
 }

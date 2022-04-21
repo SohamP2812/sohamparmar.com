@@ -7,20 +7,20 @@ export default function Home() {
       <main className="mx-auto mt-16 flex w-full flex-col items-center justify-center px-8 text-center">
         <div className="flex max-w-2xl flex-col-reverse items-center pb-10 text-left sm:flex-row">
           <div className="flex flex-col pr-8">
-            <h1 className="mb-1 text-3xl font-bold tracking-tight text-black md:text-5xl">
+            <h1 className="mb-1 text-3xl font-bold tracking-tight md:text-5xl">
               Soham Parmar
             </h1>
-            <p className="mb-4 text-gray-700">
+            <p className="mb-4 text-gray-700 dark:text-gray-400">
               Computer Engineering Student at the{' '}
               <a
                 href="https://uwaterloo.ca"
                 target="_blank"
-                className="font-semibold text-gray-600 hover:underline"
+                className="font-semibold text-gray-600 hover:underline dark:text-gray-300"
               >
                 University of Waterloo
               </a>
             </p>
-            <p className="text-gray-600">
+            <p className="text-gray-600 dark:text-gray-400">
               I am an enthusiastic advocate for the digitalization of our world,
               and an even stronger advocate for the widespread understanding of
               the digital devices running our world.

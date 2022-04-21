@@ -5,11 +5,11 @@ export default function Project({ projectData }) {
   return (
     <div className="flex min-h-screen flex-col items-center py-2">
       <main className="mx-auto mt-16 flex w-full max-w-2xl flex-col items-start justify-center px-8">
-        <h1 className="mb-4 text-5xl font-bold tracking-tight text-black">
+        <h1 className="mb-4 text-5xl font-bold tracking-tight">
           {projectData.title}
         </h1>
         <div className="mt-2 flex w-full flex-col items-start justify-between md:flex-row md:items-center">
-          <p className="ml-1 mb-2 text-sm text-gray-700">
+          <p className="ml-1 mb-2 text-sm text-gray-700 dark:text-gray-500">
             Created by {projectData.createdBy} | {projectData.date}
           </p>
           {projectData.github && (
@@ -19,7 +19,7 @@ export default function Project({ projectData }) {
                 height={24}
                 width={24}
                 src="/GitHubLogo.png"
-                className="rounded-full"
+                className="rounded-full dark:invert"
                 objectFit="cover"
               />
               <a
