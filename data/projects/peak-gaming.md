@@ -1,6 +1,6 @@
 ---
 title: 'Peak Gaming'
-createdBy: 'Soham Parmar & Mahtaab Brar'
+createdBy: 'Soham Parmar'
 date: 'In Progress'
 image: '/PeakGamingWebsite.png'
 ---
