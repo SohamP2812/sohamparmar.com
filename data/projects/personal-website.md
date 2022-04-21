@@ -1,5 +1,6 @@
 ---
 title: 'Personal Website'
+createdBy: 'Soham Parmar'
 date: 'In Progress'
 image: '/NewWebsite.png'
 github: 'https://github.com/SohamP2812/sohamparmar.com'
@@ -19,4 +20,3 @@ A personal website for myself which acts both as a learning experience and as a 
 - [Vercel](https://vercel.com/)
 - [Material UI](https://mui.com/)
 - [GitHub](https://github.com/)
-  ![NextJS logo](/OldWebsite.png '1546x799')

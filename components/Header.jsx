@@ -57,6 +57,11 @@ export default function Header() {
                 About
               </a>
             </Link>
+            <Link href="/projects">
+              <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                Projects
+              </a>
+            </Link>
           </Popover.Group>
         </div>
       </div>
@@ -105,6 +110,11 @@ export default function Header() {
                 <Link href="/about">
                   <a className="text-base font-medium text-gray-900 hover:text-gray-700">
                     About
+                  </a>
+                </Link>
+                <Link href="/projects">
+                  <a className="text-base font-medium text-gray-900 hover:text-gray-700">
+                    Projects
                   </a>
                 </Link>
               </div>

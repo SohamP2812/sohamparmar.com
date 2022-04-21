@@ -27,6 +27,7 @@ export default function Projects({ allProjectsData }) {
                         alt={title}
                         layout="fill"
                         objectFit="cover"
+                        priority
                       />
                     </div>
                     <h1 className="absolute top-5 left-5 rounded-md bg-black bg-opacity-40 px-2 text-xl font-bold text-gray-50">

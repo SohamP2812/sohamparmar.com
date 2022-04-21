@@ -1,5 +1,6 @@
 ---
 title: 'Neural Network'
+createdBy: 'Soham Parmar'
 date: 'March 2022'
 image: '/NeuralNetwork.png'
 github: 'https://github.com/SohamP2812/MNIST-Neural-Network-from-Scratch'

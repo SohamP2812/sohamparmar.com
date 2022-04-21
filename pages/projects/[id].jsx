@@ -10,7 +10,7 @@ export default function Project({ projectData }) {
         </h1>
         <div className="mt-2 flex w-full flex-col items-start justify-between md:flex-row md:items-center">
           <p className="ml-1 mb-2 text-sm text-gray-700">
-            Created by Soham Parmar | {projectData.date}
+            Created by {projectData.createdBy} | {projectData.date}
           </p>
           {projectData.github && (
             <div className="ml-1 mb-2 flex items-center">
@@ -34,14 +34,13 @@ export default function Project({ projectData }) {
           )}
         </div>
         <div className="my-8">
-          <div className="rounded-2xl border-2">
+          <div className="relative h-[380px] w-[600px] rounded-2xl border-[1px]">
             <Image
               src={projectData.image}
               alt={projectData.title}
-              width="600"
-              height="380"
               className="rounded-2xl"
               objectFit="cover"
+              layout="fill"
             />
           </div>
         </div>
