@@ -21,7 +21,7 @@ export default function Projects({ allProjectsData }) {
               >
                 <a className="block w-full rounded-2xl shadow-2xl transition duration-500 ease-out hover:scale-105 dark:shadow-zinc-800">
                   <div className="relative transform overflow-hidden rounded-2xl">
-                    <div className="relative aspect-video w-[600px] max-w-full">
+                    <div className="relative aspect-video w-[600px] max-w-full bg-white">
                       <Image
                         src={image}
                         alt={title}
