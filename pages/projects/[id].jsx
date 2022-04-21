@@ -33,8 +33,8 @@ export default function Project({ projectData }) {
             </div>
           )}
         </div>
-        <div className="my-8">
-          <div className="relative h-[380px] w-[600px] rounded-2xl border-[1px]">
+        <div className="my-8 max-w-full">
+          <div className="relative aspect-video w-[600px] max-w-full rounded-2xl border-[1px]">
             <Image
               src={projectData.image}
               alt={projectData.title}
