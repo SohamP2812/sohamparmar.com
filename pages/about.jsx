@@ -17,17 +17,17 @@ export default function About() {
             priority
           />
         </div>
-        <div className="mt-8 mb-8 leading-6">
-          <div className="mb-6">
-            <h2 className="mb-4 text-2xl font-bold">Intro</h2>
+        <div className="mb-8 leading-6">
+          <div>
+            <h2 className="text-2xl font-bold">Intro</h2>
             <p>
               I am a 1st year undergraduate student at the University of
               Waterloo. I am currently a candidate for a Bachelor's in Applied
               Sciences with a major in Computer Engineering.
             </p>
           </div>
-          <div className="mt-8 leading-6">
-            <h2 className="mb-4 text-2xl font-bold">Some History</h2>
+          <div className="leading-6">
+            <h2 className="text-2xl font-bold">Some History</h2>
             <p className="mb-2">
               My name is Soham. I am 18 and currently attend Post-Secondary at
               the University of Waterloo. My passions range from a wide variety

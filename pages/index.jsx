@@ -10,16 +10,16 @@ export default function Home() {
             <h1 className="mb-1 text-3xl font-bold tracking-tight text-black md:text-5xl">
               Soham Parmar
             </h1>
-            <h2 className="mb-4 text-gray-700">
+            <p className="mb-4 text-gray-700">
               Computer Engineering Student at the{' '}
               <a
                 href="https://uwaterloo.ca"
                 target="_blank"
-                className="font-semibold hover:underline"
+                className="font-semibold text-gray-600 hover:underline"
               >
                 University of Waterloo
               </a>
-            </h2>
+            </p>
             <p className="text-gray-600">
               I am an enthusiastic advocate for the digitalization of our world,
               and an even stronger advocate for the widespread understanding of

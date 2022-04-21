@@ -69,9 +69,9 @@ export default function Website() {
         <h1 className="mb-4 text-5xl font-bold tracking-tight text-black">
           About This Website 💻
         </h1>
-        <div className="mt-8 mb-8 leading-6">
-          <div className="mb-6">
-            <h2 className="mb-4 text-2xl font-bold">Why did I create this?</h2>
+        <div className="mb-8 leading-6">
+          <div>
+            <h2 className="text-2xl font-bold">Why did I create this?</h2>
             <p>
               Whether you are enthusiastic about software development or not - I
               believe a personal website is a powerful tool to show off your
@@ -80,8 +80,8 @@ export default function Website() {
               digital age is a must in my opinion.
             </p>
           </div>
-          <div className="mt-8 leading-6">
-            <h2 className="mb-4 text-2xl font-bold">Previous Attempt</h2>
+          <div className="leading-6">
+            <h2 className="text-2xl font-bold">Previous Attempt</h2>
             <p>
               Early 2020, I attempted my first shot at making a personal
               portfolio website. I used my knowledge of React and barebones CSS
@@ -122,8 +122,8 @@ export default function Website() {
               </li>
             </ul>
           </div>
-          <div className="mt-8 leading-6">
-            <h2 className="mb-4 text-2xl font-bold">This Website</h2>
+          <div className="leading-6">
+            <h2 className="text-2xl font-bold">This Website</h2>
             <p className="mb-4">
               This website is custom coded using the technologies and frameworks
               listed below. My goal when building this site was to pick
@@ -151,8 +151,8 @@ export default function Website() {
               ))}
             </div>
           </div>
-          <div className="mt-8 leading-6">
-            <h2 className="mb-4 text-2xl font-bold">Upcoming</h2>
+          <div className="leading-6">
+            <h2 className="text-2xl font-bold">Upcoming</h2>
             <p className="mb-4">
               Here are some things I hope to add to the website in the future!
             </p>
