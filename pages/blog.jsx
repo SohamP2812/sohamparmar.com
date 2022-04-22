@@ -5,6 +5,10 @@ export default function About() {
         <h1 className="mb-4 text-5xl font-bold tracking-tight">
           Blog - Coming Soon
         </h1>
+        <p>
+          <code>/blog</code> will use Next.js dynamic routing to render markdown
+          files into blog posts.
+        </p>
       </main>
     </div>
   )
