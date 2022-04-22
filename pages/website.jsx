@@ -161,7 +161,6 @@ export default function Website() {
                 This website is a little too minimal - I want to add some more
                 CSS magic 🪄
               </li>
-              <li className="list-disc">Dark mode of course 🌙</li>
               <li className="list-disc">
                 A blog connected to a backend database like Firestore or
                 Postgres 📝

@@ -53,9 +53,9 @@ export default function Home() {
             href="/projects"
           />
           <RedirectCard
-            title="Links"
-            description="Some more links you can check out to find me on other platforms."
-            href="/links"
+            title="Blog"
+            description="A personal blog for me to share my thoughts. Coming soon!"
+            href="/blog"
           />
         </div>
       </main>

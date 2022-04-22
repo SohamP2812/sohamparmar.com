@@ -19,6 +19,29 @@ export default function About() {
         </div>
         <div className="mb-8 leading-6">
           <div>
+            <h2 className="text-2xl font-bold">Links</h2>
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/SohamP2812/"
+                >
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/soham-parmar/"
+                >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
             <h2 className="text-2xl font-bold">Intro</h2>
             <p>
               I am a 1st year undergraduate student at the University of
