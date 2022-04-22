@@ -19,7 +19,7 @@ export default function Header() {
   }, [])
 
   return (
-    <Popover className="sticky top-0 z-50 bg-white opacity-90 backdrop-blur-md dark:bg-[#121212]">
+    <Popover className="sticky top-0 z-50 bg-white opacity-95 dark:bg-[#121212]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-2 dark:border-gray-700 md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
