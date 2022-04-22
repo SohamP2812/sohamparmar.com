@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div className="flex min-h-screen flex-col items-center py-2">
+    <div className="flex min-h-screen flex-col items-center pt-8 pb-20">
       <main className="mx-auto mt-16 flex w-full max-w-2xl flex-col items-start justify-center px-8">
         <h1 className="mb-4 text-5xl font-bold tracking-tight">
           About Soham 📝
@@ -37,6 +37,15 @@ export default function About() {
                   href="https://www.linkedin.com/in/soham-parmar/"
                 >
                   LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/SohamParmarResume.pdf"
+                >
+                  Resume
                 </a>
               </li>
             </ul>
@@ -93,6 +102,13 @@ export default function About() {
               regardless, this feeling is untouched by anything else.
             </p>
           </div>
+        </div>
+        <div>
+          <h2 className="text-2xl font-bold">Contact Me</h2>
+          <ul>
+            <li>Phone - (587) 436 - 6881</li>
+            <li>Email - s24parma@uwaterloo.ca</li>
+          </ul>
         </div>
       </main>
     </div>

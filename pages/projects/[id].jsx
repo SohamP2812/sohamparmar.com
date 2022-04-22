@@ -3,7 +3,7 @@ import Image from 'next/image'
 import ProjectBody from '../../components/ProjectBody'
 export default function Project({ projectData }) {
   return (
-    <div className="flex min-h-screen flex-col items-center py-2">
+    <div className="flex min-h-screen flex-col items-center pt-8 pb-20">
       <main className="mx-auto mt-16 flex w-full max-w-2xl flex-col items-start justify-center px-8">
         <h1 className="mb-4 text-5xl font-bold tracking-tight">
           {projectData.title}

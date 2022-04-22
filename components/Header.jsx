@@ -35,7 +35,7 @@ export default function Header() {
             </Link>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
-            <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none dark:bg-neutral-900 dark:text-gray-200 dark:hover:bg-gray-500">
+            <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none dark:bg-[#121212] dark:text-gray-200 dark:hover:bg-gray-500">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -56,6 +56,14 @@ export default function Header() {
                 Projects
               </a>
             </Link>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="/SohamParmarResume.pdf"
+              className="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400"
+            >
+              Resume
+            </a>
           </Popover.Group>
           <button
             aria-label="Toggle Dark Mode"
@@ -143,6 +151,14 @@ export default function Header() {
                     Projects
                   </a>
                 </Link>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="/SohamParmarResume.pdf"
+                  className="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400"
+                >
+                  Resume
+                </a>
               </div>
               <button
                 aria-label="Toggle Dark Mode"
