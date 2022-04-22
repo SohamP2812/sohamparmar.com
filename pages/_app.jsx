@@ -9,6 +9,13 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Soham Parmar 💻</title>
         <link rel="icon" href="/SohamParmarLogo.png" />
+        <meta name="image" property="og:image" content="/SohamParmarLogo.png" />
+        <meta
+          name="description"
+          property="og:description"
+          content="My Personal Website"
+        />
+        <meta name="author" content="Soham Parmar" />
       </Head>
       <ThemeProvider defaultTheme="light" attribute="class">
         <Container>
