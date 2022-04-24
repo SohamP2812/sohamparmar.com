@@ -2,7 +2,6 @@ import Image from 'next/image'
 import RedirectCard from '../components/RedirectCard'
 import useSWR from 'swr'
 import fetcher from '../lib/fetcher'
-import { useEffect } from 'react'
 
 export default function Home() {
   const { data } = useSWR('/api/analytics/page-views', fetcher)
@@ -43,7 +42,7 @@ export default function Home() {
         </div>
         <div className="rounded-xl border-2 p-4 text-left">
           <p className="m-0">
-            Website Visits: <strong>{data}</strong>
+            Website Visits: <strong>{data ? data : `Loading`}</strong>
           </p>
         </div>
         <div className="mt-6 mb-20 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
