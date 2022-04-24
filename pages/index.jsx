@@ -6,6 +6,31 @@ import fetcher from '../lib/fetcher'
 export default function Home() {
   const { data } = useSWR('/api/analytics/page-views', fetcher)
 
+  const cards = [
+    {
+      title: 'This Website',
+      description:
+        'Find in-depth information about this website and the technologies used to build it.',
+      href: '/website',
+    },
+    {
+      title: 'About Me',
+      description:
+        'Find out some more about me - such as my background, passions, hobbies, and more.',
+      href: '/about',
+    },
+    {
+      title: 'Projects',
+      description:
+        'Take a look at some of the projects I have made as well as some details about how they were made.',
+      href: '/projects',
+    },
+    {
+      title: 'Blog',
+      description: 'A personal blog for me to share my thoughts. Coming soon!',
+      href: '/blog',
+    },
+  ]
   return (
     <div className="flex min-h-screen flex-col items-center py-2">
       <main className="mx-auto mt-16 flex w-full flex-col items-center justify-center px-8 text-center">
@@ -46,26 +71,13 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-6 mb-20 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <RedirectCard
-            title="This Website"
-            description="Find in-depth information about this website and the technologies used to build it."
-            href="/website"
-          />
-          <RedirectCard
-            title="About Me"
-            description="Find out some more about me - such as my background, passions, hobbies, and more."
-            href="/about"
-          />
-          <RedirectCard
-            title="Projects"
-            description="Take a look at some of the projects I have made as well as some details about how they were made."
-            href="/projects"
-          />
-          <RedirectCard
-            title="Blog"
-            description="A personal blog for me to share my thoughts. Coming soon!"
-            href="/blog"
-          />
+          {cards.map((card) => (
+            <RedirectCard
+              title={card.title}
+              description={card.description}
+              href={card.href}
+            />
+          ))}
         </div>
       </main>
     </div>
