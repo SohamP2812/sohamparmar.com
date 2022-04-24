@@ -1,7 +1,12 @@
 import Image from 'next/image'
 import RedirectCard from '../components/RedirectCard'
+import useSWR from 'swr'
+import fetcher from '../lib/fetcher'
+import { useEffect } from 'react'
 
 export default function Home() {
+  const { data } = useSWR('/api/analytics/page-views', fetcher)
+
   return (
     <div className="flex min-h-screen flex-col items-center py-2">
       <main className="mx-auto mt-16 flex w-full flex-col items-center justify-center px-8 text-center">
@@ -35,6 +40,11 @@ export default function Home() {
               className="rounded-full"
             />
           </div>
+        </div>
+        <div className="rounded-xl border-2 p-4 text-left">
+          <p className="m-0">
+            Page Visits: <strong>{data}</strong>
+          </p>
         </div>
         <div className="mt-6 mb-20 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <RedirectCard
