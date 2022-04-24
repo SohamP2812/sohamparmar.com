@@ -14,7 +14,6 @@ export default class MyDocument extends Document {
               __html: `
             var host = window.location.hostname;
             if(host != "localhost") {
-                console.log('Not Localhost');
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
