@@ -55,7 +55,7 @@ const technologies = [
   {
     name: 'GitHub',
     use: 'Code Hosting and Versioning',
-    description: `With any modern project - it is arguably naive to not choose a verionsing 
+    description: `With any modern project - it is arguably naive to not choose a versioning 
     system like Git and a source code hoster like GitHub. Especially since I intend to make 
     changes to the site as time goes on, it is crucial that there is a robust VCS that exists 
     as a backbone for the project. Moreover, the integration with Vercel for automatic 
