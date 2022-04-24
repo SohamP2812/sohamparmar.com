@@ -43,7 +43,7 @@ export default function Home() {
         </div>
         <div className="rounded-xl border-2 p-4 text-left">
           <p className="m-0">
-            Page Visits: <strong>{data}</strong>
+            Website Visits: <strong>{data}</strong>
           </p>
         </div>
         <div className="mt-6 mb-20 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
