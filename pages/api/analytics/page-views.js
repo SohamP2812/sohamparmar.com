@@ -37,5 +37,5 @@ export default async (req, res) => {
 
   const data = await runReport()
 
-  return res.status(200).json(data)
+  return res.status(200).json({ screenPageViews: data })
 }

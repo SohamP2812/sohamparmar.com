@@ -1,7 +1,7 @@
 ---
 title: 'Peak Gaming'
 createdBy: 'Soham Parmar'
-date: 'In Progress'
+date: 'Currently Active'
 image: '/PeakGamingWebsite.png'
 ---
 
