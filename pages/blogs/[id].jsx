@@ -1,6 +1,7 @@
 import { getAllBlogIds, getBlogData } from '../../lib/blogs'
 import Image from 'next/image'
 import MdxBody from '../../components/MdxBody'
+import Head from 'next/head'
 
 export default function Blog({ blogData }) {
   return (

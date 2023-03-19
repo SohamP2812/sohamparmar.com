@@ -1,6 +1,7 @@
 import { getAllProjectIds, getProjectData } from '../../lib/projects'
 import Image from 'next/image'
 import MdxBody from '../../components/MdxBody'
+import Head from 'next/head'
 
 export default function Project({ projectData }) {
   return (
