@@ -1,7 +1,7 @@
 ---
 title: 'Merge Queues'
 createdBy: 'Soham Parmar'
-date: 'March 2023'
+date: 'March 19, 2023'
 image: '/Pipelines.png'
 ---
 
