@@ -29,7 +29,7 @@ export default function Home() {
     {
       title: 'Blog',
       description: 'A personal blog for me to share my thoughts. Coming soon!',
-      href: '/blog',
+      href: '/blogs',
     },
   ]
   return (
