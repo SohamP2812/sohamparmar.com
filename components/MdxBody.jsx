@@ -23,8 +23,7 @@ const components = {
     )
   },
 }
-
-export default function ProjectBody({ content }) {
+export default function MdxBody({ content }) {
   return (
     <ReactMarkdown
       plugins={unwrapImages}

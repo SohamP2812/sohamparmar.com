@@ -1,6 +1,7 @@
 import { getAllProjectIds, getProjectData } from '../../lib/projects'
 import Image from 'next/image'
-import ProjectBody from '../../components/ProjectBody'
+import MdxBody from '../../components/MdxBody'
+
 export default function Project({ projectData }) {
   return (
     <div className="flex min-h-screen flex-col items-center pt-8 pb-20">
@@ -44,7 +45,7 @@ export default function Project({ projectData }) {
             />
           </div>
         </div>
-        <ProjectBody content={projectData.contentHtml} />
+        <MdxBody content={projectData.contentHtml} />
       </main>
     </div>
   )
