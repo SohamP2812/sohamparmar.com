@@ -1,5 +1,16 @@
 import Image from 'next/image'
 
+function getAge(dateString) {
+  var today = new Date()
+  var birthDate = new Date(dateString)
+  var age = today.getFullYear() - birthDate.getFullYear()
+  var m = today.getMonth() - birthDate.getMonth()
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    age--
+  }
+  return age
+}
+
 export default function About() {
   return (
     <div className="flex min-h-screen flex-col items-center pt-8 pb-20">
@@ -53,7 +64,7 @@ export default function About() {
           <div>
             <h2 className="text-2xl font-bold">Intro</h2>
             <p>
-              I am a 1st year undergraduate student at the University of
+              I am a 2nd year undergraduate student at the University of
               Waterloo. I am currently a candidate for a Bachelor's in Applied
               Sciences with a major in Computer Engineering.
             </p>
@@ -61,10 +72,10 @@ export default function About() {
           <div className="leading-6">
             <h2 className="text-2xl font-bold">Some History</h2>
             <p className="mb-2">
-              My name is Soham. I am 18 and currently attend Post-Secondary at
-              the University of Waterloo. My passions range from a wide variety
-              of interests, but most significantly focus on ideas in science,
-              engineering and business.
+              My name is Soham. I am {getAge('December 28, 2003')} and currently
+              attend Post-Secondary at the University of Waterloo. My passions
+              range from a wide variety of interests, but most significantly
+              focus on ideas in science, engineering and business.
             </p>
             <p className="mb-2">
               I come from an “Indo-Canadian” cultural background. My dad was
