@@ -23,7 +23,7 @@ export default function Blogs({ allBlogsData }) {
                   <div className="h-full w-full transform overflow-hidden rounded-2xl">
                     <div className="align-center flex h-full flex-row items-center p-2">
                       <div className="h-full overflow-hidden rounded-2xl">
-                        <div className="relative aspect-video h-full bg-white">
+                        <div className="relative aspect-video h-full w-44 bg-white">
                           <Image
                             src={image}
                             alt={title}
